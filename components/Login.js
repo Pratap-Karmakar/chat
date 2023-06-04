@@ -8,7 +8,7 @@ const Login = () => {
   return (
     <div className="grid grid-rows-2 md:grid-cols-2">
       <div className="bg-[#c4661f] h-[70%] md:h-screen grid place-items-center">
-        <Image src={octopus} className="h-80 w-80" alt="logo"/>
+        <Image src={octopus} className="h-80 w-80 mt-10 md:mt-0" alt="logo"/>
       </div>
 
       <div className="grid place-items-center">
