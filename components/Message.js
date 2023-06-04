@@ -15,9 +15,11 @@ const Message = ({message}) => {
   const messageClass= message.uid === session.user.uid ? `${style.send}` : `${style.received}`
   return (
     <div className='mt-4'>
+        {/* <div className={` ${messageClass} p-4 grid grid-rows-2`}> */}
         <div className={` ${messageClass}`}>
-            {/* <p className='absolute mt-[-4rem]  text-xs text-black'>{session.user.name}</p> */}
-            <p className=''>{message.text}</p>
+            {/* <div className='text-sm'>{session.user.name}</div> */}
+            <img src={session?.user?.image} alt="user image" className='h-6 w-6 rounded-full mr-3'/>
+            <div className='font-semibold'>{message.text}</div>
         </div>
     </div>
   )
