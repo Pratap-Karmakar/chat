@@ -18,7 +18,7 @@ const Message = ({message}) => {
         {/* <div className={` ${messageClass} p-4 grid grid-rows-2`}> */}
         <div className={` ${messageClass}`}>
             {/* <div className='text-sm'>{session.user.name}</div> */}
-            {/* <img src={session?.user?.image} alt="user image" className='h-6 w-6 rounded-full mr-3'/> */}
+            {/* <img src={session.user.uid === message.uid ? session?.user?.image : session.user.uid !== message.uid ? session?.user?.image} alt="user image" className='h-6 w-6 rounded-full mr-3'/> */}
             <div className='font-semibold'>{message.text}</div>
         </div>
     </div>
