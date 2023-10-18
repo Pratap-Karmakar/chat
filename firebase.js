@@ -6,12 +6,12 @@ import {getFirestore} from 'firebase/firestore'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCV-QuQtqN88Z7THMCJEKWxFqA3qSeK31A",
-  authDomain: "sharkchat-cebfb.firebaseapp.com",
-  projectId: "sharkchat-cebfb",
-  storageBucket: "sharkchat-cebfb.appspot.com",
-  messagingSenderId: "82476021807",
-  appId: "1:82476021807:web:82c404a6416dff136feeda"
+  apiKey: "AIzaSyADmod7U6KX7J0W92ZWCcPosZKwTKWfXag",
+  authDomain: "sharkchat-one.firebaseapp.com",
+  projectId: "sharkchat-one",
+  storageBucket: "sharkchat-one.appspot.com",
+  messagingSenderId: "286092849105",
+  appId: "1:286092849105:web:ef17fd3244dbac472e7af0"
 };
 
 // Initialize Firebase
