@@ -14,6 +14,8 @@ const Navbar = () => {
         <Image src={shark} alt="Page Logo" className="w-10 h-10 md:mr-2"/>
         <span className="hidden md:flex text-gray-400 text-lg font-bold">SharkChat</span> 
         <h4 className='font-bold md:ml-8 ml-2 text-gray-600'>{session?.user?.name}</h4>
+        <img src={session?.user?.image} alt="" className="md:ml-2 ml-1 md:w-10 md:h-10 w-6 h-6 rounded-full"/>
+        <div ></div>
       </div>
       <div className="flex items-center md:mr-10 mr-4 xl:mr-20">           
           
